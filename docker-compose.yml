@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  my_node_server:
+    image: my_node_server
+    build: .
+    ports:
+      - 3000:3000
